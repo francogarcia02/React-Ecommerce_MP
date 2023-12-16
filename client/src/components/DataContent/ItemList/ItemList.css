@@ -1,0 +1,15 @@
+.contMenu{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  max-width: 1200px;
+  gap: 30px;
+  margin: 1.5% auto;
+  text-align: left;
+  width: 100%;
+  color: #F2BEA0;
+}
+
+.menu__title{
+  margin: 0;
+}
+

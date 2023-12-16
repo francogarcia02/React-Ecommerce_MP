@@ -1,0 +1,83 @@
+.CheckOut{
+  max-width: 500px;
+  margin: auto;
+  margin-top: 150px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  border-radius: 5px;
+  color: #F2BEA0;
+}
+
+.CheckOut__title{
+  text-align: center;
+  margin: 0;
+}
+
+.CheckOut__data{
+  text-align: left;
+}
+
+.CheckOut__ends{
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+
+}
+
+.ends__button-confirm{
+  color: white;
+  background-color: #3483fa;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: solid 1px #3483fa;
+  font-size: 15px;
+  padding: 5px;
+  text-align: center;
+}
+
+.ends__button-confirm:hover{
+  color: #3483fa;
+  background-color: #E8F1F8;
+  border: solid 1px #E8F1F8;
+  transition: all 0.25s;
+}
+
+.ends__button-cancel{
+  color: white;
+  background-color: #3483fa;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: solid 1px #3483fa;
+  font-size: 15px;
+  padding: 5px;
+  text-align: center;
+}
+
+.ends__button-cancel:hover{
+  color: #3483fa;
+  background-color: #E8F1F8;
+  border: solid 1px #E8F1F8;
+  transition: all 0.25s;
+}
+
+.CheckEnd{
+  max-width: 500px;
+  margin: auto;
+  margin-top: 150px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  border-radius: 5px;
+  color: #F2BEA0;
+}
+
+.CheckEnd__title{
+  text-align: center;
+  margin: 0;
+}
+
+.CheckEnd__text{
+  text-align: left;
+  margin: 0;
+  padding-top: 30px;
+}

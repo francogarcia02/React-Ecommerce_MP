@@ -1,0 +1,31 @@
+.funcionalidad{
+  padding: 40px;
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  justify-items: center;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  color: #F2BEA0;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.funcionalidad__item{
+  border-bottom: solid 1px #f2f2f2;
+}
+
+.funcionalidad__row{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 20px;
+}
+
+.funcionalidad__row__item{
+  font-weight: bold;
+  text-align: center;
+}
+
+.funcionalidad__row__item__text{
+  font-weight: normal;
+  text-align: center;
+}

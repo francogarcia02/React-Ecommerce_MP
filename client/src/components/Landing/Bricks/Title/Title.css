@@ -1,0 +1,15 @@
+.Title__conteiner{
+  padding: 30px;
+  display: grid;
+  justify-items: center;
+  background-color: #162D4D;
+  color: white;
+}
+
+.Conteiner__title{
+  margin: 0;
+}
+
+.Conteiner__subtitle{
+  margin: 0;
+}

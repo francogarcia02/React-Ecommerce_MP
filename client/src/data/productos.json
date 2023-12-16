@@ -1,0 +1,74 @@
+[
+  {
+    "img": "../../../assets/img/pcs/asus.jpg",
+    "name": "Notebook Asus Vivobook Go 14 Intel Celeron 32gb Ram Color Dreamy White",
+    "price": 3500,
+    "id": 1,
+    "category": "pc",
+    "caract1": "5000mAh",
+    "caract2": "1920x1080 px",
+    "caract3": "32gb",
+    "caract4": "2tb",
+    "alt": "Ejemplo de pc asus"
+  },
+  {
+    "img": "../../../assets/img/pcs/odyssey.jpg",
+    "name": "Computadora Samsung Odyssey",
+    "price": 3000,
+    "id": 2,
+    "category": "pc",
+    "caract1": "4000mAh",
+    "caract2": "1920x1080 px",
+    "caract3": "16gb",
+    "caract4": "1.5tb",
+    "alt": "Ejemplo de pc samsung"
+  },
+  {
+    "img": "../../../assets/img/smartphones/a34.jpg",
+    "name": "Telefono Samsung A34",
+    "price": 2500,
+    "id": 3,
+    "category": "smartphone",
+    "caract1": "45mg en la camara trasera",
+    "caract2": "10mg en la camara delantera",
+    "caract3": "Bateria con 5000mAh",
+    "caract4": "RAM de 6gb",
+    "alt": "Ejemplo de celular samsung"
+  },
+  {
+    "img": "../../../assets/img/smartphones/a73.jpg",
+    "name": "Telefono Samsung A73",
+    "price": 4000,
+    "id": 4,
+    "category": "smartphone",
+    "caract1": "50mg en la camara trasera",
+    "caract2": "12mg en la camara delantera",
+    "caract3": "Bateria con 4000mAh",
+    "caract4": "RAM de 6gb",
+    "alt": "Ejemplo de celular samsung"
+  },
+  {
+    "img": "../../../assets/img/smarttvs/itunes.jpg",
+    "name": "Televisor Samsung ITunes",
+    "price": 30000,
+    "id": 6,
+    "category": "smart-tv",
+    "caract1": "70 pulgadas",
+    "caract2": "Resolucion a 4k",
+    "caract3": "Dos puertos USB y tres HDMI",
+    "caract4": "TV START",
+    "alt": "Ejemplo de tv samsung"
+  },
+  {
+    "img": "../../../assets/img/smarttvs/oneplus.jpg",
+    "name": "Televisos OnePlus",
+    "price": 1000,
+    "id": 7,
+    "category": "smart-tv",
+    "caract1": "65 pulgadas",
+    "caract2": "Resolucion a 4k",
+    "caract3": "Dos puertos USB y un HDMI",
+    "caract4": "TV START",
+    "alt": "Ejemplo de tv"
+  }
+]
