@@ -9,16 +9,6 @@
  justify-items: center;
 }
 
-.contacto__titulo{
-  font-weight: bold;
-  margin: 7px 0 7px 0;
-}
-
-.contacto__item{
-  font-weight: normal;
-  margin: 5px 0 5px 0;
-}
-
 .redes{
   display: grid;
   grid-template-rows: repeat(2, auto);

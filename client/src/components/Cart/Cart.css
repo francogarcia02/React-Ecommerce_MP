@@ -36,11 +36,6 @@
   padding: 10px;
 }
 
-.Total__title{
-  margin: 0;
-  padding: 15px;
-}
-
 .Total__buttons{
   display: grid;
   gap:5px;

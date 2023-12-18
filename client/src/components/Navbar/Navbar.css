@@ -2,9 +2,8 @@
   max-width: 1500px;
   margin: 0 auto;
   background-color: #1F1F26;
-  color: #F2BEA0;
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(4, auto);
   gap: 10px;
   justify-content: start;
   align-items: center;
@@ -20,7 +19,6 @@
 .Navbar__landing{
   font-size: 1.5em;
   font-weight: 900;
-  color: #F2BEA0;
 }
 
 .Navbar__item{
@@ -28,7 +26,6 @@
   font-weight: 100;
   margin-top: 24px;
   margin-bottom: 24px;
-  color: #F2BEA0;
 }
 
 .Navbar__item-use{
@@ -45,13 +42,22 @@
   position: absolute;
   right: 0px;
   padding-right: 20px;
-  color: #F2BEA0;
 }
 
 .Navbar__obj_login{
   position: absolute;
   right: 107.41px;
-  color: #F2BEA0;
+}
+
+.Search__grid{
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-content: start;
+}
+
+.Search__input{
+  width: 600px;
+  margin-left: 60px;
 }
 
 a{

@@ -7,7 +7,7 @@ const CartWidget = () =>{
     const {productosEnCarrito} = useContext(CartContext)
 
     return(
-        <Link className="Cart__conteiner" to="/carrito">
+        <Link className="Cart__conteiner color-txt" to="/carrito">
             <p className="Navbar__item">Carrito</p>
             <span className="Cart__counter"> {productosEnCarrito()} </span>
         </Link>

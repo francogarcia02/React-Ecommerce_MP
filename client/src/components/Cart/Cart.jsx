@@ -27,7 +27,7 @@ const Cart = () =>{
                         <CartItem key={prod.id} prod={prod}/>
                     ))}
                     <div className="Total">
-                        <h3 className="Total__title">precio total: ${precioTotal()}</h3>
+                        <h3 className="h5 p-2">precio total: ${precioTotal()}</h3>
                         <div className="Total__buttons">
                             <button onClick={handleVaciar} className="Total__button">Vaciar</button>
                             {

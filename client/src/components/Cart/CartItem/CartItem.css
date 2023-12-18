@@ -29,29 +29,10 @@
   margin-bottom: 20px;
 }
 
-.Card__cart__item{
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding-left: 20px;
-}
-
-.CartItem__price{
-  font-weight: normal;
-}
-
-.CartItem__title{
-  font-weight: bold;
-}
-
 .CartItem__details{
   position: absolute;
   bottom: 10px;
   right: 10px;
-}
-
-.Details__item{
-  margin: 0;
-  font-weight: normal;
 }
 
 

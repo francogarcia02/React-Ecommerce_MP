@@ -5,16 +5,16 @@ const Footer = () =>{
     return(
         <footer className="footer-class">
             <div className="contacto-atencion">
-                <h4 className="contacto__titulo">Atencion al cliente</h4>
-                <h5 className="contacto__item">+54 9 351 222 2233</h5>
-                <h5 className="contacto__item">MegaBurguers@gmail.com</h5>
+                <h4 className="h4 p-1">Atencion al cliente</h4>
+                <p className="p-2 m-0">+54 9 351 234 5678</p>
+                <p className="p-2 m-0">MegaBurguers@gmail.com</p>
             </div>
             <div className="contacto-franquicia">
-                <h4 className="contacto__titulo">¡Conviertete en franquicia!</h4>
-                <h5 className="contacto__item">MegaFranquicias@gmail.com</h5>
+                <h4 className="h3 p-1">¡Conviertete en franquicia!</h4>
+                <p className="p-2 m-0">MegaFranquicias@gmail.com</p>
             </div>
             <div className="redes">
-                <h4 className="contacto__titulo" >Nuestras redes</h4>
+                <h4 className="h4 p-1 m-0" >Nuestras redes</h4>
                 <div className="redes__contenedor">
                     <Link to=""><img className="redes__logo" src="../../../assets/img/logos/instagram.png" alt="instagram-icon"/></Link>
                     <Link to=""><img className="redes__logo" src="../../../assets/img/logos/facebook.png" alt="facebook-icon"/></Link>

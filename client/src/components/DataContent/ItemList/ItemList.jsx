@@ -4,11 +4,13 @@ import Item from './Item/Item'
 
 const ItemList = ({productos, titulo}) =>{
     return(
-    <div className="contMenu">
+    <div className="supCont">
         <h1 className="menu__title">{titulo}</h1>
-        {productos && productos.map(prod => (
-            <Item key={prod.id} prod={prod}/>
-        ))}
+        <div className="contMenu">
+            {productos && productos.map(prod => (
+                <Item key={prod.id} prod={prod}/>
+            ))}
+        </div>
     </div>
     )
 }
