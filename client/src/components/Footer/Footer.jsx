@@ -21,9 +21,6 @@ const Footer = () =>{
                     <Link to=""><img className="redes__logo" src="../../../assets/img/logos/twitter.png" alt="twitter-icon"/></Link>
                 </div>
             </div>
-            <div className="whatsapp">
-                <a href="https://wa.me/3512290552"><img class="whatsapp_logo" src="../../../assets/img/logos/whatsapp.png" alt="wsp-icon"/></a>
-            </div>
         </footer>
     )
 }
