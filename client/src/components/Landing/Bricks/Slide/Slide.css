@@ -1,0 +1,16 @@
+.Slide{
+  overflow: hidden;
+}
+
+.Slide-inner{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.Element{
+  flex: 1 0 auto;
+  margin: 0 50px;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}

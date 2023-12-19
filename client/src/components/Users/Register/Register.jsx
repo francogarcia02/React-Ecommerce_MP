@@ -28,10 +28,10 @@ const Register = () =>{
         }
         else{
             setPassClass('password-error')
-            setContErrores( <div className="errores">
-                                <h3 className="errores__title">Error</h3>
+            setContErrores( <div className="errores alt-background alt-color-txt p-3">
+                                <h3 className="m-0 ">Error</h3>
                                 {resp.map((text)=>{
-                                    return(<h5>*{text}</h5>)
+                                    return(<p>*{text}</p>)
                                 })}
                             </div>)
         }
@@ -40,7 +40,7 @@ const Register = () =>{
     if(exist){
         return(
             <div className='Justifier'>
-                <div className="Bienvenida">
+                <div className="Bienvenida alt-background alt-color-txt">
                     <h1>¡Gracias por registrarte!</h1>
                 </div>
             </div>
@@ -50,7 +50,7 @@ const Register = () =>{
     return(
         <div className="container">
             {contErrores}
-            <form className="register__form" onSubmit={handleSubmit(enviar)}>
+            <form className="register__form alt-background alt-color-txt" onSubmit={handleSubmit(enviar)}>
                 <h1 className="form__title">Registro</h1>
                 <div className="form__subcont">
                     <p className="subcont__title">Nombre:</p>

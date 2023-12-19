@@ -10,7 +10,6 @@
   display: grid;
   grid-template-rows: repeat(3, auto);
   gap: 5px;
-  color: white;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   padding: 40px;
 }
@@ -65,7 +64,6 @@
   position: absolute;
   top: 0px;
   right: -300px;
-  color: white;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   padding: 10px;
   border-radius: 5px;
@@ -81,6 +79,5 @@
   margin: 0 auto;
   text-align: center;
   padding: 5px;
-  color: #F2BEA0;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
 }

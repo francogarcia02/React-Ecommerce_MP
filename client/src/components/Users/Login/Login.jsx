@@ -25,9 +25,9 @@ const Login = () =>{
         else{
             setInputClass('input__error')
             setError(
-            <div className="errores">
+            <div className="errores alt-color-txt alt-background">
                 <h3 className="errores__title">Errores</h3>
-                <h5>El correo electrionico o la contraseña no coinciden</h5>
+                <p className="p-2">El correo electrionico o la contraseña no coinciden</p>
             </div>
             )
         }
@@ -36,15 +36,15 @@ const Login = () =>{
     if(exist){
         return(
         <div className='Justifier'>
-            <div className="">
-                <h1 className="Bienvenida">Inicio de sesion exitoso</h1>
+            <div className="alt-color-txt">
+                <h1 className="Bienvenida alt-background">Inicio de sesion exitoso</h1>
             </div>
         </div>
         )
     }
 
     return(
-        <div className="container-login">
+        <div className="container-login alt-color-txt alt-background">
             {error}
             <form className="login__form" onSubmit={handleSubmit(enviar)}>
                 <h1 className="login-form__title">Iniciar sesion</h1>

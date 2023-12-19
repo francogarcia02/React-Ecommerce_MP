@@ -5,21 +5,15 @@
   margin: 1.5% auto;
   text-align: left;
   width: 100%;
-  color: #F2BEA0;
   margin-top: 80px;
   margin-bottom: 80px;
 }
 
-.menu__title{
-  margin: 0;
-  padding: 10px;
-}
 
 .detail__card{
   display: flex;
   border-radius: 5px;
   width: 100%;
-  background-color: #1F1F26;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   position: relative;
 }
@@ -29,17 +23,6 @@
   border-bottom-left-radius: 5px;
   width: 450px;
   height: 100%;
-}
-
-.card__detail{
-  margin: 10px;
-  margin-bottom: 20px;
-}
-
-.card__detail__item{
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding-left: 20px;
 }
 
 .detail__price{
@@ -65,13 +48,14 @@
   position: absolute;
   bottom: 10px;
   right: 10px;
+  gap: 5px;
 }
 
 .detail__cantidades{
   display: grid;
   grid-template-columns: repeat(3, auto);
   gap: 20px;
-
+  align-items: center;
 }
 
 .detail__button{
@@ -91,8 +75,6 @@
   border: solid 1px #E8F1F8;
   transition: all 0.25s;
 }
-
-
 
 .cantidades__button{
   padding: 10px;

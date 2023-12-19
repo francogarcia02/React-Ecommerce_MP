@@ -36,10 +36,10 @@ const DataContent = () => {
     return(
         <div className="Justifier">
             <div className='menu__categories'>
-                <Link className="category" to='/menu'>Todos</Link>
-                <Link className="category" to='/menu/pc'>Computadoras</Link>
-                <Link className="category" to='/menu/smartphone'>Celulares</Link>
-                <Link className="category" to='/menu/smart-tv'>Televisores</Link>
+                <Link className="color-txt" to='/menu'>Todos</Link>
+                <Link className="color-txt" to='/menu/pc'>Computadoras</Link>
+                <Link className="color-txt" to='/menu/smartphone'>Celulares</Link>
+                <Link className="color-txt" to='/menu/smart-tv'>Televisores</Link>
             </div>
             <ItemList productos={productos} titulo={titulo}/>
         </div>

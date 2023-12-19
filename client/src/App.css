@@ -3,9 +3,29 @@
 }
 
 .background{
-  background-color: #1F1F26;
+  background-color: #D4DAD8;
 }
 
 .color-txt{
-  color: #F2BEA0;
+  color: #434144;
+}
+
+.alt-background{
+  background-color: #434144;
+}
+
+.alt-color-txt{
+  color: #D4DAD8;
+}
+
+.center-align{
+  text-align: center;
+}
+
+.left-align{
+  text-align: left;
+}
+
+.right-align{
+  text-align: right;
 }

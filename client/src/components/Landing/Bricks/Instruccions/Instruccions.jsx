@@ -2,7 +2,7 @@ import './Instruccions.css'
 
 const Instruccions = () =>{
     return(
-        <div class="funcionalidad color-txt">
+        <div class="funcionalidad alt-background alt-color-txt">
             <h2 class="funcionalidad__item">¿Como hago mi pedido?</h2>
             <div class="funcionalidad__row">
                 <div>
