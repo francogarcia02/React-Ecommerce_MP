@@ -2,7 +2,7 @@ import './CartItem.css'
 
 const CartItem = ({prod}) =>{
     return(
-        <div key={prod.id} className="Cart__contMenu">
+        <div key={prod.id} className="Cart__contMenu alt-background alt-color-txt">
             <div key={prod.id} className="Cart__card">
                 <img className="Card__cart__img" src={prod.img} alt={prod.name}/>
                 <div className="Card__cart p-2">
@@ -16,8 +16,6 @@ const CartItem = ({prod}) =>{
                         <h4 className="m-0 h5">Precio total: ${prod.price * prod.cantidad}</h4>
                         }
                     </div>
-
-
                 </div>
             </div>
         </div>

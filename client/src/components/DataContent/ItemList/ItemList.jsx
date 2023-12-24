@@ -1,6 +1,6 @@
 import './ItemList.css';
-import Item from './Item/Item';
 import { lazy, Suspense } from 'react';
+
 
 const ItemList = ({productos, titulo}) =>{
     const Item = lazy( () => import('./Item/Item') )

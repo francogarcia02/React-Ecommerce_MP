@@ -20,13 +20,13 @@ const Cart = () =>{
 
     return(
         <div className="Justifier Cart_conteiner">
-            <h1 className="Cart__title">Carrito</h1>
+            <h1 className="Cart__title color-txt p-3">Carrito</h1>
             {carrito.length > 0 ?
                 <>
                     {carrito.map((prod) =>(
                         <CartItem key={prod.id} prod={prod}/>
                     ))}
-                    <div className="Total">
+                    <div className="Total color-txt">
                         <h3 className="h5 p-2">precio total: ${precioTotal()}</h3>
                         <div className="Total__buttons">
                             <button onClick={handleVaciar} className="Total__button">Vaciar</button>

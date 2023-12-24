@@ -13,7 +13,6 @@ const CheckOut = () =>{
     const {carrito, precioTotal, postId} = useContext(CartContext)
     const { user } = useContext(UserContext)
     const pedidos = collection(db, 'pedidos');
-    const [confirm, setConfirm] = useState(false)
     const [preferenceId, setPreferenceId] = useState(null);
 
     initMercadoPago('TEST-36a2cd8c-1d9e-4781-a107-9bd8296c0857');
@@ -51,20 +50,19 @@ const CheckOut = () =>{
     }
 
     return(
-        <div className='CheckOut'>
-            <h1 className="CheckOut__title">¿Desea confirmar la compra?</h1>
+        <div className='CheckOut alt-background alt-color-txt'>
+            <h2 className="CheckOut__title p-3">¿Desea confirmar la compra?</h2>
             <div className="CheckOut__data">
-                <h4>Precio a pagar: ${precioTotal()}</h4>
-                <h4>A nombre de: {user.nombre} {user.apellido}</h4>
+                <p className="p-0">Precio a pagar: ${precioTotal()}</p>
+                <p className="p-0">A nombre de: {user.nombre} {user.apellido}</p>
             </div>
             <div className="CheckOut__ends">
                 <Link className="ends__button-cancel" to="/carrito">Cancelar</Link>
                 <button className="ends__button-confirm" onClick={handleBuy}>Confirmar</button>
-                {preferenceId &&
-                    <Wallet initialization={{preferenceId}} />
-                }
             </div>
-
+            {preferenceId &&
+                <Wallet initialization={{preferenceId}} />
+            }
         </div>
     )
 }
